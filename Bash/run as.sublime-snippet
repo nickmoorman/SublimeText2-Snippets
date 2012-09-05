@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+# sudo to appropriate user
+if [[ \$(whoami) != ${1:user} ]]; then
+    sudo -u ${1:user} \$0 "\$@"
+    exit \$?
+fi]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>runas</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.shell</scope>
+	<description>Sudo to appropriate user</description> 
+</snippet>

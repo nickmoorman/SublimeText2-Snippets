@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+declare -a ${1:name}_array
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newarr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.shell</scope>
+	<description>creates a new empty array</description>
+</snippet>

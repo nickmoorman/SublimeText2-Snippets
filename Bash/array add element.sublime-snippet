@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:name}=("\${${1:name}[@]}" "${2:element}")
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>addarr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.shell</scope>
+	<description>Add an element to an existing array</description>
+</snippet>

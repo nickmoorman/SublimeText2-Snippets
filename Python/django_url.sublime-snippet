@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>djurl</tabTrigger>
+	<scope>source.python</scope>
+	<description>Django Url</description>
+
+	<content><![CDATA[
+url(r'^${1:path}', '${2:callback_function}'),]]></content>
+</snippet>
