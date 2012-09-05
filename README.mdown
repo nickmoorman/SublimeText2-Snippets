@@ -20,7 +20,7 @@ My Sublime Text 2 collection of snippets that I have written.
 	ifmkdir 	   : If directory doesn't exist, create it
 	newarr  	   : Create a new empty array
 	runas   	   : Sudo to the appropriate user
-	spectemplate : Generate a Spec File Template
+	spectemplate   : Generate a Spec File Template
 
 ### Python
 	djurl : Create a Django URL
