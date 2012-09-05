@@ -1,0 +1,29 @@
+# What Is It?
+
+My Sublime Text 2 collection of snippets that I have written.
+
+# How Do I Use It?
+
+	1. Place the directories into Sublime Text 2 > Packages > User
+	2. Type a command in the appropriate file and hit tab.
+
+## Commands
+
+### Bash
+	addarr  	   : Add array element
+	arrlen  	   : Array length
+	decho   	   : Debug echo
+	eecho   	   : Echo -e
+	iff     	   : If file exists
+	ifr     	   : If file exists & is readable
+	ifdir   	   : If directory exists
+	ifmkdir 	   : If directory doesn't exist, create it
+	newarr  	   : Create a new empty array
+	runas   	   : Sudo to the appropriate user
+	spectemplate : Generate a Spec File Template
+
+### Python
+	djurl : Create a Django URL
+### XML
+	snipvar : Creates a Snippet Variable
+# Enjoy!
