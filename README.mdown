@@ -4,8 +4,8 @@ My Sublime Text 2 collection of snippets that I have written.
 
 # How Do I Use It?
 
-	1. Place the directories into Sublime Text 2 > Packages > User
-	2. Type a command in the appropriate file and hit tab.
+1. Place the directories into Sublime Text 2 > Packages > User
+2. Type a command in the appropriate file and hit tab.
 
 ## Commands
 
