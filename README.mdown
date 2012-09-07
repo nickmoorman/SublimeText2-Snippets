@@ -22,8 +22,13 @@ My Sublime Text 2 collection of snippets that I have written.
 	runas   	   : Sudo to the appropriate user
 	spectemplate   : Generate a Spec File Template
 
+### Spec
+	spectemplate   : Generate a Spec File Template
+
 ### Python
 	djurl : Create a Django URL
+
 ### XML
 	snipvar : Creates a Snippet Variable
+	
 # Enjoy!
