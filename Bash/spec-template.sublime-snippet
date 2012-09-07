@@ -1,0 +1,61 @@
+<snippet> 
+	<content><![CDATA[
+Summary: ${1:summary}
+Name: ${2:%\{__BASENAME__\}}:%${3:\{__PORT__\}}
+Version: ${4:1.0}:${5:%\{__CONF__\}}
+Release: ${6:%\{__RELEASE__\}}
+Source: ${7:%\{__BASENAME__\}}.tar.gz
+URL: http://${8:svn.cnet.com/path}
+License: ${9:CNET-Proprietary}
+Vendor: ${10:CNET Networks}
+Group: ${11:CNET/redball}
+Buildroot: ${12:%\{_tmppath\}}/${13:%\{name\}}-${14:%\{version\}}-root
+Prefix: ${15:/var/opt/content-%\{__PORT__\}}
+BuildArch: ${16:noarch}
+# Requires: ${17:requirements}
+
+%description
+${18:Enter a description here...}
+
+${19:SVN} Tag     : ${20:%\{__SVN_TAG__\}}
+${21:SVN} URL     : ${22:%\{__SVN_URL__\}}
+${23:SVN} Version : ${24:%\{__SVN_VERSION__\}}
+
+%pre
+${25:Enter some pre commands...}
+
+%prep
+${26:Enter some prep commands...}
+
+%setup ${27:-n %\{__BUILD_DIR__\}}
+
+%build
+${28:Enter some build commands...}
+
+%install
+${29:Enter some install commands...}
+
+%files
+${30:List some files...}
+
+%clean
+${31:[ "\$RPM_BUILD_ROOT" != / ] && rm -rf \$RPM_BUILD_ROOT}
+
+
+
+%{prefix}
+${32:prefix}
+
+%post
+${33:Enter some post commands...}
+
+
+%changelog
+${34:Enter some changelog info...}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>spectemplate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>(source.shell|source.spec)</scope>
+	<description>Spec File Template Generator</description>
+</snippet>
