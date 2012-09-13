@@ -10,17 +10,18 @@ My Sublime Text 2 collection of snippets that I have written.
 ## Commands
 
 ### Bash
-	addarr  	   : Add array element
-	arrlen  	   : Array length
-	decho   	   : Debug echo
-	eecho   	   : Echo -e
-	iff     	   : If file exists & is regular file
-	ifr     	   : If file exists & is readable
-	ifdir   	   : If directory exists
-	ifmkdir 	   : If directory doesn't exist, create it
-	newarr  	   : Create a new empty array
-	runas   	   : Sudo to the appropriate user
-	spectemplate   : Generate a Spec File Template
+	addarr  	   	: Add array element
+	arrlen  	   	: Array length
+	decho   	   	: Debug echo
+	eecho   	   	: Echo -e
+	iff     	   	: If file exists & is regular file
+	ifr     	   	: If file exists & is readable
+	ifdir   	   	: If directory exists
+	ifmkdir 	   	: If directory doesn't exist, create it
+	newarr  	   	: Create a new empty array
+	runas   	   	: Sudo to the appropriate user
+	spectemplate   	: Generate a Spec File Template
+	crontabtemplate : Generate a Crontab Template
 
 ### Spec
 	spectemplate   : Generate a Spec File Template
@@ -30,5 +31,3 @@ My Sublime Text 2 collection of snippets that I have written.
 
 ### XML
 	snipvar : Creates a Snippet Variable
-	
-# Enjoy!
